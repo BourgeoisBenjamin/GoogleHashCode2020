@@ -45,7 +45,7 @@ int main(int argc, char **argv)
 
     size_t daysNb = parser.getDaysNb();
     (void)argc;
-
+    std::cout << libraries.size() << std::endl;
     for (size_t i = 0; i < daysNb; i++) {
         signedProcess(libraries);
         scanBooks(libraries);
